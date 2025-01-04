@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+
+p {
+  color: MediumSeaGreen /* hi */; /* hi */
+}
+
+#test {
+  opacity: 0.2;
+  background-color: rgba(0, 255, 0, 0);
+}
+
+body {
+  min-height: 100rem;
+  background-attachment: scroll;
+  background-image: url("https://www.w3schools.com/css/gradient_bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+h1 {
+  border-style: hidden;
+}
+h1:hover {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: red;
+}
