@@ -1,0 +1,24 @@
+body {
+    font-family: none;
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+  }
+  
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .content {
+    padding-top: 50px;
+    text-align: center;
+  }
+  
