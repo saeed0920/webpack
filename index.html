@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            padding: 0;
+            margin:0;
+            overflow: hidden;}
+        h3{
+            text-align: center;
+        }
+        .container{
+            background-image: url(./nature.jpg);
+            width: 300vh;
+            height:70vh ;
+            background-color: #ffffff5a;
+            opacity: 0.5;
+        z-index: 1;
+        }
+        .popup{
+            border-radius: 50%;
+            margin: 50px auto;
+            justify-content: center;
+            align-items: center;
+            background:#fff;
+            width: 25%;
+            height: 40%;
+           position: fixed;
+           border:1px solid #f8f4f4 ;
+           padding: 20px;
+           bottom: 0;
+           right:12px ;
+          left:0px; top: 100px;
+           z-index: 2;
+    
+        }
+        .popup h2{
+            margin-bottom: 2px;
+            padding:5px 4px;
+            color: rgb(43, 43, 43);
+            font:  Arial , sans-serif;
+            font-size: 28px;
+            z-index:3;
+            text-align: center;
+        }
+        .popup p {
+            display: block;
+            margin-top: 0;
+            overflow: auto;
+            font-size: smaller;
+            color: rgb(59, 56, 56);
+            z-index: 4;
+            text-align: center;
+        }
+        input{
+            margin:10px;
+            text-align: center;
+            z-index: 5;
+        }
+         .popup .center{
+            color:lightgray;
+             text-align: center;}
+             
+       .popup .btn-brown{
+        text-align: center;
+        padding: 13px 13px;
+        height: 10px;
+        width: 150px;
+        background: rgb(196, 121, 8);
+        color: #fff;
+        border: none;   }
+        
+        .popup .link{
+            display: block;
+            top:20px;
+            right:30px;
+            font-size: small;
+            color: black;
+            z-index:6;
+            text-align: center;
+            margin-bottom: 2px;
+        }
+    </style>
+</head>
+<body>
+   
+    <main>
+        <header><h3><i>Hello world</i></h3></header>
+     
+        <div class="container"></div>
+  
+        <div class="popup">
+            <h2>sing up for 5% off <br>your 1st order</h2><br>
+            <p>approved by you-hunders of consicues 
+                angels cant be wrong🖤</p>
+                <div class="center">
+            <input type="email" placeholder="Enter your Email"><br>
+            <button class="btn-brown">Yes,babe!</button><br>
+            <a class="link" href="#"> No. Thanks</a></div>
+        </div>
+    </main>
+</body>
+</html> 
