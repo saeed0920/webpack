@@ -1,0 +1,101 @@
+      /*style body*/
+body{
+    font-family:Arial, Helvetica, sans-serif;;
+    background-color: #f5f0e9;
+    padding: 0;
+    margin: 0;
+    display: flex;/*It places the center in the main part*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  section{
+    border-radius: 8px;
+    overflow: hidden;
+    /*Using these  top commands, we can give the border a radius around the edge without the middle border between our two elements getting a radius.*/
+    background-color: #fff;
+    }
+    /*dtle picture Chanel*/
+.CHANEL{
+    width: 250px;
+    height: auto;
+}
+/* style description (h1,p,..)*/
+.text {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;/*The flexible items are displayed vertically, as a column*/
+    width: 260px;
+    height: auto;
+  }
+  
+  .text h1 {
+    font-size: 30px;
+    margin:10px  0;
+    color: #2c3e50;
+  }
+  .header {
+       font-size: 8px;
+       color: #7f8c8d;
+       letter-spacing: 3px;/*Puts spaces between letters.*/
+       margin: 10px 0;
+  }
+  
+  .text .gray{
+    font-size: 13px;
+    color: #7f8c8d;
+    margin: 15px 0;
+  }
+/*style number*/
+   .price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+   }
+   /* Style by number discount */
+.gray-smallnum-overline{
+    font-size: 14px;
+   text-decoration: line-through;/*Underlining text and numbers*/
+   color:#7f8c8d ; }
+   /* style Selling price*/
+.green-bignum{
+    font-size: 24px;
+    color:hsl(158, 36%, 37%);
+    font-weight: bold;}
+    /*Overall style button*/
+.button{
+  font-family: "Roboto",sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  background-color:hsl(158, 36%, 38%) ;
+  width: 190px;
+  padding: 10px 9px ;
+  margin: 5px 3px;
+  height: 45px;
+  gap:10px; /*Defines a specific amount of space between rows or columns.*/
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     } 
+  /*Mode the button when hoveringر*/
+   .button:hover{
+      background-color: hsl(158, 36%, 30%);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);;
+   }
+       /*Style to buy icon*/
+  img .icon-cart{
+    display: block;
+    margin: 34px 25px;
+    padding: 45px 45px;
+   }
+   .button .icon-cart{
+    width: 16px;
+    height: 16px;
+    text-align: center;
+   }
+  
